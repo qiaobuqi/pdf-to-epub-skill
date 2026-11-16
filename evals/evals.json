@@ -1,0 +1,17 @@
+{
+  "skill_name": "pdf-to-epub",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "把3页合成PDF转成保留全部页面的EPUB，并核对页序和图像。",
+      "expected_output": "3页影印EPUB，结构通过、源页匹配。",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "检查含坏href和坏fragment的EPUB，不把结构错误报告为通过。",
+      "expected_output": "非零退出并列明两个错误。",
+      "files": []
+    }
+  ]
+}
